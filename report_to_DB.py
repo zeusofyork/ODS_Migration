@@ -2,9 +2,9 @@ import pandas as pd
 from sqlalchemy import create_engine, inspect
 
 # Replace with your actual file path and database credentials
-excel_file_path = 'path_to_your_excel_file.xlsx'
+excel_file_path = 'SOC2_STAGE.xlsx'
 database_uri = 'dialect+driver://username:password@host:port/database'
-table_name = 'your_table_name'
+table_name = 'get correct table name from Zuya'
 
 # Create a database engine
 engine = create_engine(database_uri)
